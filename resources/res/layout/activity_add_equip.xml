@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/textWhite" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp">
+        <EditText android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textBlack" android:gravity="center" android:id="@+id/machinetxt" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Machine"/>
+        <Spinner android:textStyle="bold" android:id="@+id/type_machine" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@+id/add_equip" android:background="#0d72e5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Ajouter"/>
+            <Button android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@+id/cancel_equip" android:background="#000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Annuler"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

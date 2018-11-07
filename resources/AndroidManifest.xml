@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.windows_pc.anp">
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="27"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/iconapp" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true" android:roundIcon="@mipmap/ic_launcher_round">
+        <activity android:name="com.example.windows_pc.anp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme_NoActionBar" android:label="@string/title_activity_main2" android:name="com.example.windows_pc.anp.Main2Activity"/>
+        <activity android:name="com.example.windows_pc.anp.showPersActivity"/>
+        <activity android:name="com.example.windows_pc.anp.showEquipActivity"/>
+        <activity android:name="com.example.windows_pc.anp.showOperActivity"/>
+        <activity android:name="com.example.windows_pc.anp.AddEquipActivity"/>
+        <activity android:name="com.example.windows_pc.anp.AddPersActivity"/>
+        <activity android:name="com.example.windows_pc.anp.AddOperActivity"/>
+    </application>
+</manifest>

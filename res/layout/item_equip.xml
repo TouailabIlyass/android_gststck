@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff991400" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Machine :" android:layout_weight="0.3" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@id/machine" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="machine" android:layout_weight="0.7" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff991400" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Type        :" android:layout_weight="0.3" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@id/type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="type" android:layout_weight="0.7" />
+    </LinearLayout>
+</LinearLayout>

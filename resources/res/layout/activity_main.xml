@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/bluebg" android:paddingLeft="20dp" android:paddingTop="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@+id/profile_image" android:layout_width="120dp" android:layout_height="120dp" android:layout_marginTop="30dp" android:layout_marginBottom="40dp" android:src="@drawable/anplogo" app:civ_border_color="@color/bl" app:civ_border_width="1dp"/>
+    <EditText android:textSize="20sp" android:textColorHint="@color/textBlack" android:id="@+id/userText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="20dp" android:hint="@string/hint_user" android:drawableLeft="@drawable/user_icon"/>
+    <EditText android:textSize="20sp" android:textColorHint="@color/textBlack" android:id="@+id/passText" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:hint="@string/hint_pass" android:drawableLeft="@drawable/pass_icon"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <Button android:id="@+id/login_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="10dp" android:text="@string/login_btn"/>
+    </LinearLayout>
+</LinearLayout>

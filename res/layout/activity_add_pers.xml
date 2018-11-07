@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/textWhite" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/textBlack" android:gravity="center" android:id="@id/firstname" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Nom" />
+        <EditText android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/textBlack" android:gravity="center" android:id="@id/lastname" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Prenom" />
+        <Spinner android:id="@id/type_fonct" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="18.0sp" android:textColor="@color/textWhite" android:id="@id/add_pers" android:background="#ff0d72e5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="Ajouter" />
+            <Button android:textSize="18.0sp" android:textColor="@color/textWhite" android:id="@id/cancel_pers" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="Annuler" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.windows_pc.anp">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/iconapp" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name="com.example.windows_pc.anp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_main2" android:name="com.example.windows_pc.anp.Main2Activity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.windows_pc.anp.showPersActivity"/>
+        <activity android:name="com.example.windows_pc.anp.showEquipActivity"/>
+        <activity android:name="com.example.windows_pc.anp.showOperActivity"/>
+        <activity android:name="com.example.windows_pc.anp.AddEquipActivity"/>
+        <activity android:name="com.example.windows_pc.anp.AddPersActivity"/>
+        <activity android:name="com.example.windows_pc.anp.AddOperActivity"/>
+    </application>
+</manifest>

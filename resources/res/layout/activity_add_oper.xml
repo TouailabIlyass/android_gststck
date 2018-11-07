@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/textWhite" android:paddingTop="30dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <EditText android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:id="@+id/operationTxt" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:hint="Operation"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@+id/operationDate" android:background="@color/bl" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Date" android:layout_weight="0.3"/>
+                <TextView android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:id="@+id/operationDateTxt" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Date" android:layout_weight="0.5"/>
+            </LinearLayout>
+            <Spinner android:id="@+id/shift_spinner" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <Spinner android:id="@+id/pers_spinner" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <Spinner android:id="@+id/equip_spinner" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/textBlack" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginBottom="10dp" android:text="Navire:"/>
+            <EditText android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:id="@+id/nom_navireTxt" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:hint="Nom navire"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp">
+                <Button android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@+id/date_arr" android:background="@color/bl" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Date Arrive" android:layout_weight="0.3"/>
+                <TextView android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:id="@+id/operationDate_arrTxt" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Date" android:layout_weight="0.5"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@+id/date_dep" android:background="@color/bl" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Date Depart" android:layout_weight="0.3"/>
+                <TextView android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:id="@+id/operationDate_depTxt" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Date" android:layout_weight="0.5"/>
+            </LinearLayout>
+            <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/textBlack" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="15dp" android:layout_marginBottom="10dp" android:text="Marchendise:"/>
+            <EditText android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:id="@+id/type_marchendise" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:hint="type"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:id="@+id/tonnage_marchendise" android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="tonnage" android:layout_weight="0.5"/>
+                <EditText android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:id="@+id/qte_marchendise" android:padding="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="quantite" android:layout_weight="0.5"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="50dp" android:layout_marginTop="10dp" android:layout_marginRight="50dp">
+                <Button android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@+id/add_oper" android:background="@color/colorButtonNormal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Ajouter"/>
+                <Button android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@+id/cancel_oper" android:background="#000" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Exit"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

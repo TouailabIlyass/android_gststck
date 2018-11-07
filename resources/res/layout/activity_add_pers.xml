@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/textWhite" android:paddingTop="30dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <EditText android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textBlack" android:gravity="center" android:id="@+id/firstname" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nom"/>
+        <EditText android:textSize="18sp" android:textStyle="bold" android:textColor="@color/textBlack" android:gravity="center" android:id="@+id/lastname" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Prenom"/>
+        <Spinner android:id="@+id/type_fonct" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="18sp" android:textColor="@color/textWhite" android:id="@+id/add_pers" android:background="#0d72e5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Ajouter"/>
+            <Button android:textSize="18sp" android:textColor="@color/textWhite" android:id="@+id/cancel_pers" android:background="#000" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Annuler"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

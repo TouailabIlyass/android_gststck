@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Afficher">
+        <menu>
+            <group android:id="@id/group_afficher" android:checkableBehavior="single">
+                <item android:id="@id/show_equip" android:title="Equipement" />
+                <item android:id="@id/show_pers" android:title="Personnel" />
+                <item android:id="@id/show_OperLayout" android:title="Operation" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Ajouter">
+        <menu>
+            <group android:id="@id/group_ajouter" android:checkableBehavior="single">
+                <item android:id="@id/add_equipLayout" android:title="Ajouter Equipemet" />
+                <item android:id="@id/add_persLayout" android:title="Ajouter Personnel" />
+                <item android:id="@id/add_OperLayout" android:title="Ajouter Operation" />
+            </group>
+        </menu>
+    </item>
+    <group android:id="@id/group_quitter" android:checkableBehavior="single">
+        <item android:id="@id/quitter" android:title="Quitter" />
+    </group>
+</menu>

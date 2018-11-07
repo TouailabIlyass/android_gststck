@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sort_view" android:layout_width="10.0dip" android:layout_height="15.0dip" android:layout_marginLeft="5.0dip" android:src="@mipmap/ic_dark_sortable" android:contentDescription="@string/sortable_indicator_content_description" android:layout_marginStart="5.0dip" />
+    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

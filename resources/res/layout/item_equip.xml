@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="10dp">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#991400" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Machine :" android:layout_weight="0.3"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@+id/machine" android:layout_width="0dp" android:layout_height="wrap_content" android:text="machine" android:layout_weight="0.7"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#991400" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Type        :" android:layout_weight="0.3"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/textWhite" android:id="@+id/type" android:layout_width="0dp" android:layout_height="wrap_content" android:text="type" android:layout_weight="0.7"/>
+    </LinearLayout>
+</LinearLayout>
